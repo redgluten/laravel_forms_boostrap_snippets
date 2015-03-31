@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<div class="checkbox">
+    <label for="${1:checkbox_id}" class="checkbox">
+        {{ Form::checkbox('${1:checkbox_id}', null, null, array(
+            'class' => 'form-control',
+            'id'    => '${1:checkbox_id}',
+        )) }} ${2:Checkbox label}
+    </label>
+</div>
+]]></content>
+    <tabTrigger>bootcheckboxm</tabTrigger>
+    <scope>text.html.php.laravel-blade</scope>
+</snippet>

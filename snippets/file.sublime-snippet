@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group">
+    {!! Form::label('${1:inputname}', '${2:File label}') !!}
+    {!! Form::file('${1:inputname}', array('class' => 'form-control'${3:, 'required' => 'required'})) !!}
+    ${4:<p class="help-block">${5:Help block text}</p>}
+    <small class="text-danger">{{ \$errors->first('${1:inputname}') }}</small>
+</div>
+]]></content>
+    <tabTrigger>bootfile</tabTrigger>
+    <scope>text.html.php.laravel-blade</scope>
+</snippet>
