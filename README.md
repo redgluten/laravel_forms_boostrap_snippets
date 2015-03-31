@@ -11,36 +11,11 @@ When you're editing your view in Sublime Text, type the snippet shortcut then pr
 
 - Via Git clone this repository into your Packages folder:
 
-    git clone https://github.com/redgluten/laravel_forms_boostrap.git
+    git clone https://github.com/redgluten/laravel_forms_boostrap_snippets.git
 
 
 Or download the snippets zip file and unzip it into your Packages folder.
 
 ## Available snippets
 
-| Shortcut  | Result |
-|-----------|--------|
-| ext		| @extends('`name`') |
-| lay		| @layout('`name`')  |
-| sec		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @endsection    |
-| secy		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @yield_section |
-| yl		| @yield('`section`', '`default`') |
-| lsec		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @show |
-| par		| @parent	|
-| !!		| {!! $`var` !!}	|
-| }}		| {{ `escaped output` }}	|
-| inc		| @include('`view.name`', `array('some' => 'data')`)  |
-| if		| @if (`condition`) <br /> **{{-- expr --\}\}** <br /> @endif   |
-| ife		| @if (`condition`) <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- expr --\}\}** <br /> @endif  |
-| foreach	| @foreach(`$array` as `$element`) <br /> **{{-- expr --\}\}** <br /> @endforeach  |
-| fore		| @forelse (`$array` as `$element`) <br /> **{{-- expr --\}\}** <br /> @endforelse  |
-| for		| @for (`$i` = `0`; `$i` `<` `…`; `$i++`) <br /> **{{-- expr --\}\}** <br /> @endfor  |
-| each		| @each ('`item.view`', $`items`, '`item`', '`empty.view`')
-| trans		| {{ trans('`language.line`') }}	|
-| route		| {{ route('`name`') }}	|
-| asset		| {{ asset('`path`') }}	|
-| while		| @while (`condition`) <br /> **{{-- expr --\}\}** <br /> @endwhile  |
-| unless	| @unless (`condition`) <br /> **{{-- expr --\}\}** <br /> @endunless  |
-| choise	| @choice('`language.line`', $`number`)  |
-| comment	| {{-- `comment` --}}	|
-| lang		| @lang('`language.line`', array('`variable` => '`replacement`'))  | 
+- `inputtextm`: Outputs code for a `text` input preformated for bootsrap and Form-model binding.

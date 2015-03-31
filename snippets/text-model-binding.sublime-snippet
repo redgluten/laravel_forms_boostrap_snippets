@@ -7,6 +7,6 @@
     <small class="text-danger">{{ $errors->first('${2:inputname}') }}</small>
 </div>
 ]]></content>
-    <tabTrigger>inputtext</tabTrigger>
+    <tabTrigger>inputtextm</tabTrigger>
     <scope>source.php</scope>
 </snippet>
