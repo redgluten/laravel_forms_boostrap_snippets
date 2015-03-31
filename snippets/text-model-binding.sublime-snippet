@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<!-- ${1:InputName} -->
+<div class="form-group">
+    {!! Form::label('${2:inputname}', '{3:Input label}') !!}
+    {!! Form::text('${2:inputname}', null, array('class' => 'form-control', {4:'required' => 'required'})) !!}
+    <small class="text-danger">{{ $errors->first('${2:inputname}') }}</small>
+</div>
+]]></content>
+    <tabTrigger>inputtext</tabTrigger>
+    <scope>source.php</scope>
+</snippet>
