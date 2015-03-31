@@ -3,5 +3,5 @@
 {!! Form::submit('${1:Button name}', array('class' => 'btn${2: btn-info}${3: pull-right}')) !!}
 ]]></content>
     <tabTrigger>bootbutton</tabTrigger>
-    <scope>text.html.php.laravel-blade</scope>
+    <scope>text.html.laravel-blade</scope>
 </snippet>

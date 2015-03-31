@@ -10,5 +10,5 @@
 </div>
 ]]></content>
     <tabTrigger>bootcheckboxm</tabTrigger>
-    <scope>text.html.php.laravel-blade</scope>
+    <scope>text.html.laravel-blade</scope>
 </snippet>

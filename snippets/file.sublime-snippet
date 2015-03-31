@@ -8,5 +8,5 @@
 </div>
 ]]></content>
     <tabTrigger>bootfile</tabTrigger>
-    <scope>text.html.php.laravel-blade</scope>
+    <scope>text.html.laravel-blade</scope>
 </snippet>
