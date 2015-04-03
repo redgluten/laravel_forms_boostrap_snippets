@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+{!! Form::hidden('${1:inputname}'${4:, ['required' => 'required']}) !!}
+]]></content>
+    <tabTrigger>boothidden</tabTrigger>
+    <scope>text.html.laravel-blade</scope>
+</snippet>
