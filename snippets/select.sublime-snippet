@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group">
+    {!! Form::label('${1:inputname}', '${2:Input label}') !!}
+    {!! Form::select('${1:inputname}',${3: \$options},${4: \$selected_value}, array('class' => 'form-control'${5:, 'required' => 'required'})) !!}
+    <small class="text-danger">{{ \$errors->first('${1:inputname}') }}</small>
+</div>
+]]></content>
+    <tabTrigger>bootselect</tabTrigger>
+    <scope>text.html.laravel-blade</scope>
+</snippet>

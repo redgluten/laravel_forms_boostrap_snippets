@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group">
+    {!! Form::label('${1:inputname}', '${2:Input label}') !!}
+    {!! Form::date('${1:inputname}',${3: null}, array('class' => 'form-control'${4:, 'required' => 'required'})) !!}
+    <small class="text-danger">{{ \$errors->first('${1:inputname}') }}</small>
+</div>
+]]></content>
+    <tabTrigger>bootdate</tabTrigger>
+    <scope>text.html.laravel-blade</scope>
+</snippet>

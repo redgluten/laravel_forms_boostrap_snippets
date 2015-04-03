@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<div class="checkbox">
+    <label for="${1:radio_group_name}" class="checkbox">
+        {{ Form::radio('${1:radio_group_name}',${2: null},${3:  null}, array(
+            'class' => 'form-control',
+            'id'    => '${4:radio_id}',
+        )) }} ${5:Checkbox label}
+    </label>
+</div>
+]]></content>
+    <tabTrigger>bootradio</tabTrigger>
+    <scope>text.html.laravel-blade</scope>
+</snippet>

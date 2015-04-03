@@ -36,4 +36,3 @@ When you're editing your view in Sublime Text, type the snippet shortcut then pr
 
 - Snippet for generating a [drop-down list with a range](http://laravelcollective.com/docs/5.0/html#drop-down-lists)
 - Snippet for generating a [list with months name](http://laravelcollective.com/docs/5.0/html#drop-down-lists)
-- Snippets without [form-model binding](http://laravelcollective.com/docs/5.0/html#form-model-binding)
