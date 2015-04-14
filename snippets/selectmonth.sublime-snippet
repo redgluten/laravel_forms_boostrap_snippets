@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group">
+    {!! Form::label('${1:month}', '${2:Month}') !!}
+    {!! Form::selectRange('${1:month}', array('class' => 'form-control'${3:, 'required' => 'required'})) !!}
+    <small class="text-danger">{{ \$errors->first('${1:month}') }}</small>
+</div>
+]]></content>
+    <tabTrigger>bootselectmonth</tabTrigger>
+    <scope>text.html.laravel-blade</scope>
+</snippet>
