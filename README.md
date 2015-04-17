@@ -12,7 +12,7 @@ Handy [Sublime Text](http://www.sublimetext.com/3) snippets to create [Laravel C
 git clone https://github.com/redgluten/laravel_forms_boostrap_snippets.git
 ```
 
-Or download the snippets zip file and unzip it into your Packages folder (Windows & Linux: `Preferences > Browse Packages...`, Mac: `Sublime Text > Preferences > Browse Packages...`).
+- Or download the snippets zip file and unzip it into your Packages folder (Windows & Linux: `Preferences > Browse Packages...`, Mac: `Sublime Text > Preferences > Browse Packages...`).
 
 ## Usage
 
