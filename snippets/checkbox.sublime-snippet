@@ -2,7 +2,7 @@
     <content><![CDATA[
 <div class="checkbox">
     <label for="${1:checkbox_id}">
-        {!! Form::checkbox('${1:checkbox_id}',${2: null},${3: null}, ['id' => '${1:checkbox_id}'])) !!} ${4:Checkbox label}
+        {!! Form::checkbox('${1:checkbox_id}',${2: null},${3: null}, ['id' => '${1:checkbox_id}']) !!} ${4:Checkbox label}
     </label>
 </div>
 ]]></content>
