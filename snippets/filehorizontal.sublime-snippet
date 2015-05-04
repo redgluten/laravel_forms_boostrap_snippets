@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group">
+    {!! Form::label('${1:inputname}', '${2:File label}', ['class'=>'${6:col-sm-3}']) !!}
+    <div class="${7:col-sm-9}">
+	    {!! Form::file('${1:inputname}'${3:, ['class' => 'required']}) !!}
+	    ${4:<p class="help-block">${5:Help block text}</p>}
+	    <small class="text-danger">{{ \$errors->first('${1:inputname}') }}</small>
+    </div>
+</div>
+]]></content>
+    <tabTrigger>bootfileh</tabTrigger>
+    <scope>text.html.laravel-blade</scope>
+</snippet>

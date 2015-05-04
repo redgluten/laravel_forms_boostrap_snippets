@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+{!! Form::open(['method'=>'${1:post}', '${2:route}'=>'${3:routeName}', 'class'=>'form-horizontal' ]) !!}
+
+
+    ${0:boottexth}
+
+	
+	<div class="btn-group pull-right">
+			{!! Form::reset("Reset", ['class'=>'btn btn-warning']) !!}
+			{!! Form::submit("${4:Add}", ['class'=>'btn btn-${5:success}']) !!}
+	</div>
+
+{!! Form::close() !!}
+]]></content>
+    <tabTrigger>larform</tabTrigger>
+    <scope>text.html.laravel-blade</scope>
+</snippet>

@@ -36,3 +36,19 @@ When you're editing your view in Sublime Text, type the snippet shortcut then pr
 | **SelectRange** | `bootselectrange` |
 | **Text**        | `boottextarea`    |
 | **Textarea**    | `boottext`        |
+
+## Available horizontal snippets
+
+|      Input      |      Shortcut     |
+|-----------------|-------------------|
+| **Checkbox**    | `bootcheckboxh`    |
+| **Date**        | `bootdateh`        |
+| **Email**       | `bootemailh`       |
+| **File**        | `bootfileh`        |
+| **Number**      | `bootnumberh`      |
+| **Password**    | `bootpasswordh`    |
+| **Select**      | `bootselecth`      |
+| **SelectMonth** | `bootselectmonthh` |
+| **SelectRange** | `bootselectrangeh` |
+| **Text**        | `boottextareah`    |
+| **Textarea**    | `boottexth`        |
