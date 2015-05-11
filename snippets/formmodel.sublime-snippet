@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+{!! Form::model(${1:model}, ['route'  => ['${1:model}.update', ${1:model}->id}]]) !!}
+
+    ${0:boottext}
+
+	<div class="btn-group pull-right">
+			{!! Form::reset("Reset", ['class'=>'btn btn-warning']) !!}
+			{!! Form::submit("${4:Add}", ['class'=>'btn btn-${5:success}']) !!}
+	</div>
+
+{!! Form::close() !!}
+]]></content>
+    <tabTrigger>bootformmodel</tabTrigger>
+    <scope>text.html.laravel-blade</scope>
+</snippet>
