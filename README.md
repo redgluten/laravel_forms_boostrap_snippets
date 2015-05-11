@@ -20,6 +20,15 @@ When you're editing your view in Sublime Text, type the snippet shortcut then pr
 
 ## Available snippets
 
+### General
+
+|      Input       |      Shortcut     |
+|------------------|-------------------|
+| **Form**         | `bootform`        |
+| **Form model**   | `bootformmodel`   |
+
+### Inputs
+
 |      Input      |      Shortcut     |
 |-----------------|-------------------|
 | **Button**      | `bootbutton`      |
@@ -37,7 +46,7 @@ When you're editing your view in Sublime Text, type the snippet shortcut then pr
 | **Text**        | `boottextarea`    |
 | **Textarea**    | `boottext`        |
 
-## Available horizontal snippets
+### Horizontal inputs
 
 |      Input      |      Shortcut     |
 |-----------------|-------------------|
