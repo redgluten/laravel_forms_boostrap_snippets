@@ -1,12 +1,12 @@
 <snippet>
 	<content><![CDATA[
-{!! Form::model(${1:model}, ['route'  => ['${1:model}.update', ${1:model}->id}]]) !!}
+{!! Form::model(${1:model}, ['route' => ['${1:model}.update', ${1:model}->id}], 'method' => 'PUT']) !!}
 
     ${0:boottext}
 
 	<div class="btn-group pull-right">
 			{!! Form::reset("Reset", ['class'=>'btn btn-warning']) !!}
-			{!! Form::submit("${4:Add}", ['class'=>'btn btn-${5:success}']) !!}
+			{!! Form::submit("${2:Add}", ['class'=>'btn btn-${3:success}']) !!}
 	</div>
 
 {!! Form::close() !!}
