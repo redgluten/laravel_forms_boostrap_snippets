@@ -2,7 +2,7 @@
     <content><![CDATA[
 <div class="form-group">
     {!! Form::label('${1:inputname}', '${2:Input label}') !!}
-    {!! Form::number('${1:inputname}',${3: null}, array('class' => 'form-control'${4:, 'required' => 'required'})) !!}
+    {!! Form::number('${1:inputname}',${3: null}, ['class' => 'form-control'${4:, 'required' => 'required'}]) !!}
     <small class="text-danger">{{ \$errors->first('${1:inputname}') }}</small>
 </div>
 ]]></content>

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-{!! Form::open(['method'=>'${1:post}', '${2:route}'=>'${3:routeName}'${4:, 'class'=>'form-horizontal'} ]) !!}
+{!! Form::open(['method'=>'${1:POST}', '${2:route}' => '${3:routeName}'${4:, 'class' => 'form-horizontal'} ]) !!}
 
     ${0:boottext}
 

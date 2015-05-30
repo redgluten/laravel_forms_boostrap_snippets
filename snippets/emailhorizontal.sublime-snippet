@@ -3,7 +3,7 @@
 <div class="form-group">
     {!! Form::label('${1:email}', '${2:Email}', ['class'=>'${3:col-sm-3}']) !!}
     <div class="${4:col-sm-9}">
-    	{!! Form::email('${1:email}',${5: null}, array('class' => 'form-control'${6:, 'required' => 'required'}${7:, 'placeholder' => 'eg: foo@bar.com'})) !!}
+    	{!! Form::email('${1:email}',${5: null}, ['class' => 'form-control'${6:, 'required' => 'required'}${7:, 'placeholder' => 'eg: foo@bar.com'}]) !!}
     	<small class="text-danger">{{ \$errors->first('${1:email}') }}</small>
 	</div>
 </div>

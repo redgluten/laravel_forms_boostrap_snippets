@@ -3,7 +3,7 @@
 <div class="form-group">
     {!! Form::label('${1:inputname}', '${2:Input}', ['class'=>'${5:col-sm-3}']) !!}
     <div class="${6:col-sm-9}">
-    	{!! Form::textarea('${1:inputname}',${3: null,} array('class' => 'form-control'${4:, 'required' => 'required'})) !!}
+    	{!! Form::textarea('${1:inputname}',${3: null,} ['class' => 'form-control'${4:, 'required' => 'required'}]) !!}
     	<small class="text-danger">{{ \$errors->first('${1:inputname}') }}</small>
 	</div>
 </div>

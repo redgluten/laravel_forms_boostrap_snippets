@@ -3,7 +3,7 @@
 <div class="form-group">
     {!! Form::label('${1:inputname}', '${2:Range}', ['class'=>'${6:col-sm-3}']) !!}
     <div class="${7:col-sm-9}">
-    	{!! Form::selectRange('${1:inputname}', ${3:0}, ${4:10}, array('class' => 'form-control'${5:, 'required' => 'required'})) !!}
+    	{!! Form::selectRange('${1:inputname}', ${3:0}, ${4:10}, ['class' => 'form-control'${5:, 'required' => 'required'}]) !!}
     	<small class="text-danger">{{ \$errors->first('${1:inputname}') }}</small>
 	</div>
 </div>
