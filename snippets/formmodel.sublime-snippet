@@ -5,8 +5,8 @@
     ${0:boottext}
 
 	<div class="btn-group pull-right">
-			{!! Form::reset("Reset", ['class'=>'btn btn-warning']) !!}
-			{!! Form::submit("${2:Add}", ['class'=>'btn btn-${3:success}']) !!}
+			{!! Form::reset("Reset", ['class' => 'btn btn-warning']) !!}
+			{!! Form::submit("${2:Add}", ['class' => 'btn btn-${3:success}']) !!}
 	</div>
 
 {!! Form::close() !!}
