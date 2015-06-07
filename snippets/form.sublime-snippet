@@ -1,12 +1,12 @@
 <snippet>
 	<content><![CDATA[
-{!! Form::open(['method' => '${1:POST}', '${2:route}' => '${3:routeName}'${4:, 'class' => 'form-horizontal'} ]) !!}
+{!! Form::open(['method' => '${1:POST}', '${2:route}' => '${3:routeName}'${4:, 'class' => 'form-horizontal'}]) !!}
 
     ${0:boottext}
 
 	<div class="btn-group pull-right">
-			{!! Form::reset("Reset", ['class' => 'btn btn-warning']) !!}
-			{!! Form::submit("${5:Add}", ['class' => 'btn btn-${6:success}']) !!}
+		${5:{!! Form::reset("Reset", ['class' => 'btn btn-warning']) !!}}
+		{!! Form::submit("${6:Add}", ['class' => 'btn btn-${7:success}']) !!}
 	</div>
 
 {!! Form::close() !!}
