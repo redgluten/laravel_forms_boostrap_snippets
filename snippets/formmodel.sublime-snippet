@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-{!! Form::model($${1:model}, ['route' => ['${1:model}s.update', ${1:model}s->id}], 'method' => 'PUT']) !!}
+{!! Form::model(\$${1:model}, ['route' => ['${1:model}s.update', ${1:model}s->id}], 'method' => 'PUT']) !!}
 
     ${0:boottext}
 
