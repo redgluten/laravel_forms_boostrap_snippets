@@ -4,10 +4,10 @@
 
     ${0:boottext}
 
-	<div class="btn-group pull-right">
-		${5:{!! Form::reset("Reset", ['class' => 'btn btn-warning']) !!}}}
-		{!! Form::submit("${6:Add}", ['class' => 'btn btn-${7:success}']) !!}
-	</div>
+    <div class="btn-group pull-right">
+        ${5:{!! Form::reset("Reset", ['class' => 'btn btn-warning']) !!}}
+        {!! Form::submit("${6:Add}", ['class' => 'btn btn-${7:success}']) !!}
+    </div>
 
 {!! Form::close() !!}
 ]]></content>
