@@ -56,6 +56,7 @@ When you're editing your view in Sublime Text, type the snippet shortcut then pr
 | **File**        | `bootfileh`        |
 | **Number**      | `bootnumberh`      |
 | **Password**    | `bootpasswordh`    |
+| **Radio**       | `bootradioh`       |
 | **Select**      | `bootselecth`      |
 | **SelectMonth** | `bootselectmonthh` |
 | **SelectRange** | `bootselectrangeh` |
