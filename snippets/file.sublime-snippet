@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<div class="form-group">
+<div class="form-group @if(\$errors->first('${1:checkbox_id}'))has-error@endif">
     {!! Form::label('${1:inputname}', '${2:File label}') !!}
     {!! Form::file('${1:inputname}'${3:, ['class' => 'required']}) !!}
     ${4:<p class="help-block">${5:Help block text}</p>}
