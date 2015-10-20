@@ -1,12 +1,10 @@
 <snippet>
     <content><![CDATA[
-<div class="checkbox  @if(\$errors->first('${1:checkbox_id}')) has-error @endif">
-    <label for="${1:radio_group_name}" class="checkbox">
-        {!! Form::radio('${1:radio_group_name}',${2: null},${3:  null}, [
-            'class' => 'form-control',
-            'id'    => '${4:radio_id}',
-        ]) !!} ${5:Checkbox label}
+<div class="radio @if(\$errors->first('${1:radio_group_name}')) has-error @endif">
+    <label for="${1:radio_group_name}">
+        {!! Form::radio('${1:radio_group_name}',${2: null},${3:  null}, ['id' => '${4:radio_id}']) !!} ${5:Checkbox label}${0}
     </label>
+    <small class="text-danger">{{ \$errors->first('${1:radio_group_name}') }}</small>
 </div>
 ]]></content>
     <tabTrigger>bootradio</tabTrigger>
