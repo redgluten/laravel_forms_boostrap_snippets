@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<div class="form-group @if(\$errors->first('${1:year}')) has-error @endif">
+    {!! Form::label('${1:year}', '${2:Year}') !!}
+    {!! Form::selectYear('${1:year}', ${3:date('Y')}, ${4:date('Y') + 10}, null, ['class' => 'form-control'${5:, 'required' => 'required'}]) !!}
+    <small class="text-danger">{{ \$errors->first('${1:year}') }}</small>
+</div>
+]]></content>
+    <tabTrigger>bootselectyear</tabTrigger>
+    <scope>text.html.laravel-blade</scope>
+</snippet>

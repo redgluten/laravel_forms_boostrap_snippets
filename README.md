@@ -44,14 +44,15 @@ When you're editing your view in Sublime Text, type the snippet shortcut then pr
 | **Radio**       | `bootradio`       |
 | **Select**      | `bootselect`      |
 | **SelectMonth** | `bootselectmonth` |
+| **SelectYear**  | `bootselectyear`  |
 | **SelectRange** | `bootselectrange` |
 | **Text**        | `boottextarea`    |
 | **Textarea**    | `boottext`        |
 
 ### Horizontal inputs
 
-|      Input      |      Shortcut     |
-|-----------------|-------------------|
+|      Input      |      Shortcut      |
+|-----------------|--------------------|
 | **Checkbox**    | `bootcheckboxh`    |
 | **Date**        | `bootdateh`        |
 | **Email**       | `bootemailh`       |
@@ -61,6 +62,7 @@ When you're editing your view in Sublime Text, type the snippet shortcut then pr
 | **Radio**       | `bootradioh`       |
 | **Select**      | `bootselecth`      |
 | **SelectMonth** | `bootselectmonthh` |
+| **SelectYear**  | `bootselectyearh`  |
 | **SelectRange** | `bootselectrangeh` |
 | **Text**        | `boottextareah`    |
 | **Textarea**    | `boottexth`        |
