@@ -10,5 +10,5 @@
 </div>
 ]]></content>
     <tabTrigger>bootfileh</tabTrigger>
-    <scope>text.html.laravel-blade</scope>
+    <scope>text.blade</scope>
 </snippet>

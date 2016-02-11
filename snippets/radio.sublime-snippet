@@ -8,5 +8,5 @@
 </div>
 ]]></content>
     <tabTrigger>bootradio</tabTrigger>
-    <scope>text.html.laravel-blade</scope>
+    <scope>text.blade</scope>
 </snippet>

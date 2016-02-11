@@ -9,5 +9,5 @@
 </div>
 ]]></content>
     <tabTrigger>bootselectrangeh</tabTrigger>
-    <scope>text.html.laravel-blade</scope>
+    <scope>text.blade</scope>
 </snippet>
