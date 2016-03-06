@@ -32,7 +32,6 @@ boottextarea
 
 boottext
 
-
 bootcheckboxh
 
 bootdateh

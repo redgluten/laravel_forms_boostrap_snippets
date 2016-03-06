@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 <div class="form-group">
-    <div class="checkbox @if(\$errors->first('${1:checkbox_id}')) has-error @endif">
+    <div class="checkbox{{ \$errors->has('${1:checkbox_id}') ? ' has-error' : '' }}">
         <label for="${1:checkbox_id}">
             {!! Form::checkbox('${1:checkbox_id}',${2: '1'},${3: null}, ['id' => '${1:checkbox_id}']) !!} ${4:Checkbox label}
         </label>

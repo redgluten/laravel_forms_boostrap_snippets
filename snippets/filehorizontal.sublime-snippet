@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<div class="form-group @if(\$errors->first('${1:photo}')) has-error @endif">
+<div class="form-group{{ \$errors->has('${1:photo}') ? ' has-error' : '' }}">
     {!! Form::label('${1:photo}', '${2:File label}', ['class' => '${6:col-sm-3 control-label}']) !!}
     <div class="${7:col-sm-9}">
 	    {!! Form::file('${1:photo}'${3:, ['required' => 'required']}) !!}

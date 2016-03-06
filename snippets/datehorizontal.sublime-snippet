@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<div class="form-group @if(\$errors->first('${1:date}')) has-error @endif">
+<div class="form-group{{ \$errors->has('${1:date}') ? ' has-error' : '' }}">
     {!! Form::label('${1:date}', '${2:Input label}', ['class' => '${3:col-sm-3 control-label}']) !!}
     <div class="${4:col-sm-9}">
     	{!! Form::date('${1:date}',${5: null}, ['class' => 'form-control'${6:, 'required' => 'required'}]) !!}

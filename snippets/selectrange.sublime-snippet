@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<div class="form-group @if(\$errors->first('${1:range}')) has-error @endif">
+<div class="form-group{{ \$errors->has('${1:range}') ? ' has-error' : '' }}">
     {!! Form::label('${1:range}', '${2:Input label}') !!}
     {!! Form::selectRange('${1:range}', ${3:0}, ${4:10}, ['class' => 'form-control'${5:, 'required' => 'required'}]) !!}
     <small class="text-danger">{{ \$errors->first('${1:range}') }}</small>

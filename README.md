@@ -1,6 +1,6 @@
 # Laravel Collective Forms + Bootstrap Snippets for Sublime Text
 
-Handy [Sublime Text](http://www.sublimetext.com/3) snippets to create [Laravel Collective Forms](http://laravelcollective.com/docs/5.0/html) inputs preformated for [Twitter's Bootstrap 3](http://getbootstrap.com/).
+Handy [Sublime Text](http://www.sublimetext.com/3) snippets to create [Laravel Collective Forms](http://laravelcollective.com/docs/5.0/html) inputs preformated for [Twitter’s Bootstrap 3](http://getbootstrap.com/).
 
 ## Installation
 

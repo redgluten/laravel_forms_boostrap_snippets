@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<div class="radio @if(\$errors->first('${1:radio_group_name}')) has-error @endif">
+<div class="radio{{ \$errors->has('${1:radio_group_name}') ? ' has-error' : '' }}">
     <label for="${1:radio_group_name}">
         {!! Form::radio('${1:radio_group_name}',${2: null},${3:  null}, ['id' => '${4:radio_id}']) !!} ${5:Checkbox label}${0}
     </label>
