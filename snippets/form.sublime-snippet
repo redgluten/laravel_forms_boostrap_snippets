@@ -12,5 +12,5 @@
 {!! Form::close() !!}
 ]]></content>
     <tabTrigger>bootform</tabTrigger>
-    <scope>text.blade</scope>
+    <scope>text.blade,text.html.laravel-blade</scope>
 </snippet>

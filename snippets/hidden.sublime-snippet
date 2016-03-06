@@ -3,5 +3,5 @@
 {!! Form::hidden('${1:inputname}', ${2:'value'}) !!}
 ]]></content>
     <tabTrigger>boothidden</tabTrigger>
-    <scope>text.blade</scope>
+    <scope>text.blade,text.html.laravel-blade</scope>
 </snippet>
