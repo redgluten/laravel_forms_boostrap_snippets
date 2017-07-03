@@ -46,8 +46,8 @@ When you're editing your view in Sublime Text, type the snippet shortcut then pr
 | **SelectMonth** | `bootselectmonth` |
 | **SelectYear**  | `bootselectyear`  |
 | **SelectRange** | `bootselectrange` |
-| **Text**        | `boottextarea`    |
-| **Textarea**    | `boottext`        |
+| **Text**        | `boottext`        |
+| **Textarea**    | `boottextarea`    |
 
 ### Horizontal inputs
 
@@ -64,5 +64,5 @@ When you're editing your view in Sublime Text, type the snippet shortcut then pr
 | **SelectMonth** | `bootselectmonthh` |
 | **SelectYear**  | `bootselectyearh`  |
 | **SelectRange** | `bootselectrangeh` |
-| **Text**        | `boottextareah`    |
-| **Textarea**    | `boottexth`        |
+| **Text**        | `boottexth`        |
+| **Textarea**    | `boottextareah`    |
