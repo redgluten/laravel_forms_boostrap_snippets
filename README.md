@@ -4,6 +4,8 @@ Handy [Sublime Text](http://www.sublimetext.com/3) snippets to create [Laravel C
 
 ## Installation
 
+First you need to get the syntax package [laravel-blade](https://github.com/Medalink/laravel-blade) installed, then install this one using one of the following options:
+
 - Via [Package Control](https://packagecontrol.io/): search for `Laravel Forms Bootstrap Snippets`.
 
 - Via Git, clone this repository into your Packages folder:
