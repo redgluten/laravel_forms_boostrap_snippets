@@ -18,7 +18,7 @@ git clone https://github.com/redgluten/laravel_forms_boostrap_snippets.git
 
 ## Usage
 
-When you're editing your view in Sublime Text, type the snippet shortcut then press `tab` key.
+When you're editing your view in Sublime Text, type the snippet shortcut followed by the <kbd>tab</kbd> key.
 
 ![Example with `boottext` snippet](example.gif)
 
